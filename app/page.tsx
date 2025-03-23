@@ -32,7 +32,7 @@ export default function Home() {
             </Link>
             <Link
               href="https://app.getdefitools.com/home"
-              className="ml-2 md:ml-4 bg-transparent text-[#daff80] border border-[#daff80] rounded-full px-3 py-1 text-xs md:px-5 md:py-2 text-sm font-medium hover:bg-[white]/30 transition-colors hover:text-black"
+              className="ml-2 md:ml-4 bg-transparent text-[#daff80] border border-[#daff80] rounded-full px-3 py-1 text-xs md:px-5 md:py-2 text-sm font-medium hover:bg-[white]/30 transition-colors hover:text-blackml-4 bg-transparent text-[#daff80] border border-[#daff80] rounded-full px-4 py-1.5 text-sm font-medium hover:bg-[white]/30 transition-colorssubheading-lg-sm tool-bar-border hover:bg-[linear-gradient(to_right,_#15dce8,_#64dfc7,_#8ae09c,_#dbee72)] rounded-[10000px] !border-[2px] px-6 py-[9.5px] leading-[19px]  hover:text-black text-secondary-200"
             >
               ENTER APP
             </Link>
