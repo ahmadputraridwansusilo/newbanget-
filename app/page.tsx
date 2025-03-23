@@ -1,0 +1,81 @@
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight} from "lucide-react"
+import { SiGitbook } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegram } from "react-icons/fa";
+import Spline from '@splinetool/react-spline/next';
+
+
+export default function Home() {
+  return (
+    <main className="relative min-h-screen bg-black overflow-hidden">
+      <div className="relative z-10 flex flex-col min-h-screen">
+        {/* Header */}
+        <header className="flex justify-between items-center px-6 py-4 md:px-20 md:py-6">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="text-[#daff80] w-6 h-6">
+              <img src="/gila.png" alt="ray" />
+            </div>
+            <span className="font-bold text-white tracking-wide">BUFAI</span>
+          </Link>
+
+          <div className="flex items-center gap-4">
+            <Link href="https://buf-ai.gitbook.io/buf.ai-docs" className="text-white opacity-70 hover:opacity-100">
+              <SiGitbook size={20} />
+            </Link>
+            <Link href="https://t.me/+lFcscbju84JhOTY1" className="text-white opacity-70 hover:opacity-100">
+             <FaTelegram size={20}/>
+            </Link>
+              
+            <Link href="https://x.com/BUF_Ai" className="text-white opacity-70 hover:opacity-100">
+              <FaXTwitter size={20} />
+            </Link>
+
+            <Link
+              href="https://app.getdefitools.com/home"
+              className="ml-4 bg-transparent text-[#daff80] border border-[#daff80] rounded-full px-4 py-1.5 text-sm font-medium hover:bg-[white]/30 transition-colorssubheading-lg-sm tool-bar-border hover:bg-[linear-gradient(to_right,_#15dce8,_#64dfc7,_#8ae09c,_#dbee72)] rounded-[10000px] !border-[2px] px-6 py-[9.5px] leading-[19px]  hover:text-black text-secondary-200"
+            >
+              ENTER APP
+            </Link>
+          </div>
+        </header>
+
+        {/* Main content */}
+        {/* <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
+          <h1 className="text-5xl md:text-7xl font-bold text-white max-w-3xl leading-tight">
+            AI Engine for
+            <br />
+            Storytelling
+          </h1>
+          <p className="mt-6 text-white/80 text-lg">
+            Built for a new generation of <span className="text-white font-medium">creators and brands</span>
+          </p>
+
+          <Link
+            href="/app"
+            className="mt-12 bg-[#daff80] text-black rounded-full px-8 py-3 font-medium flex items-center gap-2 hover:bg-[#e6ff9c] transition-colors"
+          >
+            ENTER APP <ArrowRight size={18} />
+          </Link>
+        </div> */}
+          <div className="flex justify-center  mt-0">
+          <Spline
+        scene="https://prod.spline.design/7KeF8ornnvG5hTlh/scene.splinecode" 
+        />
+        </div>
+      </div>
+    </main>
+  )
+}
+
+function DotPattern() {
+  return (
+    <div className="absolute inset-0 grid grid-cols-[repeat(20,1fr)] gap-8">
+      {Array.from({ length: 400 }).map((_, i) => (
+        <div key={i} className="w-1 h-1 rounded-full bg-white/10" />
+      ))}
+    </div>
+  )
+}
+
