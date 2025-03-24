@@ -12,7 +12,7 @@ export default function Home() {
     <main className="relative min-h-screen bg-black overflow-hidden">
     <div className="relative z-10 flex flex-col min-h-screen">
         {/* Header */}
-        <header className="flex flex-wrap justify-between items-center px-4 py-3 md:px-12 md:py-5">
+        <header className="flex flex-wrap justify-between items-center px-4 py-2 md:px-12 md:py-1">
           <Link href="/" className="flex items-center gap-2">
             <div className="text-[#daff80] w-6 h-6">
               <img src="/gila.png" alt="ray" className="w-full h-full object-contain" />
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         <div className="flex-1 flex justify-center items-center px-4 md:px-10">
         <Spline
-            scene="https://prod.spline.design/7KeF8ornnvG5hTlh/scene.splinecode"
+            scene="https://prod.spline.design/A7alJOeW7A6RUHUE/scene.splinecode"
             className="w-full max-w-md md:max-w-2xl "
           />
         </div>
