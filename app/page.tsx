@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         <div className="flex-1 flex justify-center items-center px-4 md:px-10">
         <Spline
-            scene="https://prod.spline.design/9DcN1nqjvWUBL6mP/scene.splinecode"
+            scene="https://prod.spline.design/wOlnNskULkGmnlUM/scene.splinecode"
             className="w-full max-w-md md:max-w-2xl "
           />
         </div>
