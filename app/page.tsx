@@ -51,7 +51,7 @@ export default function Home() {
           </p>
 
           <Link
-            href="/app"
+            href="https://app.getdefitools.com/home"
             className="mt-12 bg-[#daff80] text-black rounded-full px-8 py-3 font-medium flex items-center gap-2 hover:bg-[#e6ff9c] transition-colors"
           >
             ENTER APP <ArrowRight size={18} />
