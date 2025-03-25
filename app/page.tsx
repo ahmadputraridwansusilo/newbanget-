@@ -44,7 +44,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-bold text-white max-w-3xl leading-tight">
             AI Engine for
             <br />
-            Storytelling
+            Defi
           </h1>
           <p className="mt-6 text-white/80 text-lg">
             Built for a new generation of <span className="text-white font-medium">creators and brands</span>
