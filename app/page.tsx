@@ -43,7 +43,6 @@ export default function Home() {
         <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-5xl md:text-7xl font-bold text-white max-w-3xl leading-tight">
             AI Engine for
-            <br />
             Defi
           </h1>
           <p className="mt-6 text-white/80 text-lg">
